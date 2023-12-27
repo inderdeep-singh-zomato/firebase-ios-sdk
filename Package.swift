@@ -75,6 +75,7 @@ let package = Package(
     ),
     .library(
       name: "FirebaseCrashlytics",
+      type: .dynamic,
       targets: ["FirebaseCrashlytics"]
     ),
     .library(
